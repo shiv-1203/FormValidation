@@ -34,7 +34,7 @@ Welcome to the React Form Validation project! 🚀 This repository is dedicated 
 2. Install dependencies.
 
     ```bash
-    cd pokedex-react-app
+    cd formvalidation
     npm install react-sweetalert2 
     ```
     ```bash
