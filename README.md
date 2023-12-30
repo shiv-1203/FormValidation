@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Description of Form Validation Application
+This repository contains the source code for implementing form validation in a React application. The form includes fields for Name, Email, and Password, with validation criteria to ensure data integrity. The React components and associated logic provide a seamless user experience, displaying error messages for invalid inputs and a success message upon valid form submission.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description 📝
+![image](https://github.com/shiv-1203/FormValidation/assets/105982373/79d508c2-e37b-43c8-8e28-9e0de2847ac5)
 
-## Available Scripts
+Welcome to the React Form Validation project! 🚀 This repository is dedicated to implementing a robust form validation solution for React applications. The image shown descibes the Form Validation project.
 
-In the project directory, you can run:
+### Features ✨
 
-### `npm start`
+- **Essential Fields:** The form includes the following essential fields for user information:
+  - **Name:** Alphabetic characters only. 🆔
+  - **Email:** Proper email format required. 📧
+  - **Password:** Strong password criteria enforced. 🔐
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Validation Criteria:** Rigorous validation ensures data integrity.
+  - Alphabetic-only names.
+  - Proper email formats.
+  - Strong password requirements.
+    
+- **Requirements Notepad:** For detailed criteria and guidelines for each form field.
+  
+- **Seamless User Experience:** The React components and associated logic contribute to a smooth and user-friendly experience. 🌐
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Error Handling:** Dynamically displayed error messages guide users to correct their information. ❌
 
-### `npm test`
+- **Success Feedback:** Clear success message upon meeting validation criteria. ✅
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Getting Started with local setup
+1. Clone the repository.
+    ```bash
+    git clone https://github.com/shiv-1203/FormValidation.git
+    ```
+2. Install dependencies.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    ```bash
+    cd pokedex-react-app
+    npm install react-sweetalert2 
+    ```
+    ```bash
+    npm install gh-pages --save-dev
+   ```
+    
+4. Run the app.
+    ```bash
+    npm start
+    ```
+**Note:** If you plan to host your frontend app on GitHub Pages, only then you need to install `gh-pages`.
+    
+Feel free to explore the project and reach out if you have any questions or feedback. Happy exploring! 🎉
