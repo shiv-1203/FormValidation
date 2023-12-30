@@ -12,6 +12,7 @@ Welcome to the React Form Validation project! 🚀 This repository is dedicated 
   - **Name:** Alphabetic characters only. 🆔
   - **Email:** Proper email format required. 📧
   - **Password:** Strong password criteria enforced. 🔐
+    - **Visibility Toggle:** An eye button has been added for toggling the visibility of the password. 👁️
 
 - **Validation Criteria:** Rigorous validation ensures data integrity.
   - Alphabetic-only names.
