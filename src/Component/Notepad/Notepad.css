@@ -1,0 +1,38 @@
+.notepadContainer {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid rgba(0, 0, 0, 0.422);
+    border-radius: 8px;
+    text-align: left;
+    font-weight: 700;
+  }
+  
+  h2 {
+    text-align: center;
+    color: black;
+  }
+  
+  li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .notepadContainer {
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  

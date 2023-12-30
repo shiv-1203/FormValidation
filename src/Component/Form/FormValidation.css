@@ -1,0 +1,69 @@
+.NavComponent {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.formComponent {
+    margin-top: 90px;
+    background-color: white;
+    height: 290px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+    max-width: fit-content;
+    border: 1px solid black;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+input{
+    width:30vw;
+    height: 20px;
+    border-radius: 5px;
+}
+.formElement{
+    margin-bottom: 20px;
+}
+.label{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.submit{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: fit-content;
+    font-weight: 600;
+    cursor: pointer;
+}
+.errorDetails{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.eye-icon{
+    margin-left: 5px;
+}
+@media (max-width: 700px){
+    input{
+        width: 70vw;
+    }
+}
